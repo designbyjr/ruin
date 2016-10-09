@@ -1,0 +1,358 @@
+* {
+	font:100%;
+	font-family: Lato;
+	text-decoration: none;
+	list-style-type: none;
+	color:black;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+a:visited, a:link, a:active, button:visited
+{
+    text-decoration: none;
+    color:white;
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 767px) {
+	header{
+		position: relative;
+		top: 0px;
+		left: 0px;
+
+	}
+	.hero-home{
+		background-image: url("/assets/top-back.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 100vmin;
+
+	}
+
+	#logodiv{
+		background-image: url("/assets/verto-logo.png");
+		background-repeat: no-repeat;
+		background-size: 35vw;
+   		background-position: center;
+    	width: 35vw;
+    	height: 9vh;
+		
+
+	}
+
+
+	ul>li{
+		float: left;
+		margin-left: 1vw;
+
+	}
+	ul>li>a{
+		font-size: 2.2vw;
+		font-weight: 200;
+		color: white;
+		transition: color .2s ease-in
+	}
+
+	ul>li>a:hover{
+	color:#95c21f;
+	text-decoration: none;
+	}
+
+	.hero-top{
+		margin-top: 30vmin;
+	}
+	.hero-logo{
+		background-image: url("/assets/large-v.png");
+		background-repeat: no-repeat;
+		height: 18vw;
+		width: 18vw;
+		background-size: 18vw;
+		background-position: center;
+		display: block;
+		margin: auto;
+
+	}
+
+	.about-block{
+		height: 760px;
+		margin-bottom: 25vh;
+	}
+
+	.about-block>div>h1,h2{
+		color:#95c21f;
+		font-weight: 300;
+		text-align: center;
+	}
+	.title-block{
+		margin-top: 100px;
+	}
+	.titles{
+		font-size: 7vw;
+	}
+
+	#subtitle{
+		font-size: 4vw;
+	}
+	.counters{
+		color: #95c21f;
+		font-weight: 300;
+		font-size: 7vmin;
+		text-align: center;
+	}
+	.stat-titles,  .sustain-subs{
+		color: #95c21f;
+		font-weight: 300;
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	.menu{
+		margin-top: 2.2vmin;
+		padding-left: 5vw;
+	}
+	.sustaindiv{
+		margin-top: 45px;
+		margin-left: 5vw;
+	}
+	.sustaindivtop{
+		margin-top: 85px;
+		margin-left: 5vw;
+	}
+	.sustaindiv > div> img , .sustaindivtop > div > img{
+		display: block;
+		margin:auto;
+	}
+
+	.vestaback{
+		background-image: url("/assets/vesta-back.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;	
+		background-position: center ;
+		height: 598px;
+		padding-top: 12%;
+		position: relative;
+
+	}
+	#towan{
+		background-image: url("/assets/large-house.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;	
+		background-position: center;
+		height: 100vh;
+		padding:10% 10% 0 10%;
+		 width: 100%;	
+		z-index: 10;
+	}
+	#towan-logo{
+		display: block;
+		margin: auto;
+		margin-top: 25vmax;
+		z-index: 10;
+		width: 65vw;
+	}
+	.towan-p{
+		color: white;
+		display:block;
+		margin: auto;
+		margin-top: 4%;
+		font-weight: 300;
+		width: 68%;
+		z-index: 10;
+
+	}
+	#skye{
+	background-color: #95c21f;
+	display: none;
+	z-index: 5;
+	}
+	#romans{
+	background-color: #2aa4b6;
+	display: none;
+	z-index: 2;
+	}
+	#brookside{
+	background-color: #6a7678;
+	display: none;
+	z-index: 0;
+
+	}
+	.slides{
+		position: relative; 
+		width: 100%;
+		height: 100vh;
+	}
+	.slide{
+		position: absolute;
+	  	top: 0;
+	  	left: 0;
+		height: 100vh;
+		width:100%;
+	}
+
+	.circle{
+
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 90%;
+	border: solid 2px white;
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	margin-right: 15px;
+	}
+	.circlearea{
+		z-index: 15;
+		position: relative;
+		bottom: 20px;
+		text-align: center;
+		margin-left: 4%;
+		margin-top: -30px;
+		cursor: pointer;
+
+	}
+	.activecircle{
+		background-color: white;
+	}
+
+	.footerheaders{
+		color: #95c21f;
+		font-size: 25px;
+		font-weight: 300;
+	}
+	.footercontainer{
+		padding-top: 40px;
+		margin-right: 5px;
+		margin-left: 0px;
+	}
+	.social{
+		margin-top: 57px;
+		padding-left: 20px;
+	}
+	.social >p{
+		margin:0;
+		padding: 0;
+		line-height: 24px;
+
+	}
+	.s-icons{
+		margin-top: 15px;
+		margin-right: 10px;
+	}
+	#address{
+	margin-top: 20px;
+	}
+	#address >p{
+		padding: 0px;
+		margin: 0px;
+		line-height: 24px;
+	}
+	#post{
+		line-height: 24px;
+	}
+	#awards{
+		float: left;
+		margin-top: 10px;
+	}
+	.centerblocks{
+		margin-left: 3vw;
+	}
+	#Copyright{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	/*bootstrap area*/
+
+	.navmtop{
+		margin-top: 3vw;
+		margin-left: 10px;
+		width: 80vmax;
+	}
+	.sectionmtop{
+		margin-top: 50px;
+	}
+	.center-p{
+		text-align: center;
+	}
+	.introbtn{
+		text-align: center;
+		background-color: #95c21f;
+		padding:20px 45px 20px 45px;
+		font-size: 18px;
+		border-radius: 7px;
+		color: white;
+		font-weight: 300;
+		display: block;
+		margin: auto;
+		margin-top: 10vh;
+
+
+	}
+	.morebtn{
+
+	    text-align: center;
+	    background-color: #95c21f;
+	    padding: 20px 45px 20px 45px;
+	    font-size: 18px;
+	    border-radius: 7px;
+	    color: white;
+	    font-weight: 300;
+	    display: block;
+	    margin: auto;
+	  
+	    margin-bottom: 3%;
+	}
+	.stats{
+		display: block;
+		margin:auto;
+		margin-top: 90px;
+
+	}
+	.modcontainer{
+		margin-right: 0px;
+		margin-left: 0px;
+		width: 100%;
+		padding:0px;
+		margin-top: 175px;
+		
+	}
+	.modcontainertwo{
+		margin-right: 0px;
+		margin-left: 0px;
+		width: 100%;
+		padding:0px;
+		margin-top: 5px;
+		padding-bottom: 20px;
+	}
+	.modcontainer > .row{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	#vesta-phone{
+		    display: block;
+    		margin: auto;
+    		padding-top: 2px;
+    		width: auto;
+    		position: absolute;
+    		bottom: 0px;
+    		left: 0;
+    		right: 0;
+	}
+	#vesta-logo{
+		display: block;
+		margin: auto;
+		width: auto;
+	}
+	#innerrow{
+		margin-left: 18%;
+		margin-right: 18%;
+	}
+	#automation{
+		font-size: 7vw;
+		margin-top: 35px;
+		margin-bottom: 25px;
+	}
+}
